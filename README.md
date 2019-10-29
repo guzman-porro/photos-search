@@ -10,3 +10,4 @@
 ```
 
 # Architecture
+Find architecture decisions here: https://github.com/guzman-porro/photos-search/wiki/Architecture
