@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import {  
   Button 
 } from '../../shared/components'
-import { searchPhotosAction } from './actions';
+import searchPhotosAction from './actions';
 
 const LoadMoreButton = styled(Button)`
   width: 100%;

@@ -12,7 +12,7 @@ const handlePhotoItem = photo => {
   }
 }
 
-export const searchPhotosAction = (filters, loadMore = false) => {
+const searchPhotosAction = (filters, loadMore = false) => {
   return (dispatch, getState) => {
     const { currentPage, currentFilters } = getState().search;
     const page = loadMore ? currentPage + 1 : 1;
@@ -39,3 +39,5 @@ export const searchPhotosAction = (filters, loadMore = false) => {
 
   }
 }
+
+export default searchPhotosAction;

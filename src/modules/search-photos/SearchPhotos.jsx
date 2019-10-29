@@ -9,7 +9,7 @@ import {
   Loading
 } from '../../shared/components'
 
-import { searchPhotosAction } from './actions';
+import searchPhotosAction from './actions';
 
 const Container = styled.div`
   display: flex;
